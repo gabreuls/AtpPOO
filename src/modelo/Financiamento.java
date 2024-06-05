@@ -38,4 +38,5 @@ public class Financiamento {
         System.out.printf("Financiamento feito em %i anos.\n", getPrazoFinanciamento());
         System.out.printf("Taxa de Juros por ano do Financiamento: %d", getTaxaJurosAnual());
     }
+
 }
