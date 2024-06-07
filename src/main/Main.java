@@ -44,23 +44,24 @@ public class Main {
         listaTodosFinanciamentos.add(financiamento3);
         listaTodosFinanciamentos.add(financiamento4);
 
-        public void CalcularTodosImoveis(ArrayList<Financiamento> listaf) {
+        CalcularTodosImoveis(listaTodosFinanciamentos);
+    }
+
+    public static void CalcularTodosImoveis(ArrayList<Financiamento> listaf) {
         double valorTotalImoveis = 0;
         double pagTotal = 0;
-
-        for(int i = 0; i < listaTodosFinanciamentos.size(); i++) {
-            var f = listaTodosFinanciamentos.get(i);
-
-            System.out.printf("Imóvel %d: Valor R$ %.2f; Pagamento Total R$ %.2f\n", i + 1, f.getValorImovel(), f.CalcularPagamentoTotal());
-
+    
+        for(int i = 0; i < listaf.size(); i++) {
+            Financiamento f = listaf.get(i);
+    
+            System.out.printf("\nImóvel %d: Valor R$ %.2f; Pagamento Total R$ %.2f\n", i + 1, f.getValorImovel(), f.CalcularPagamentoTotal());
+    
             pagTotal += f.CalcularPagamentoTotal();
             valorTotalImoveis += f.getValorImovel(); 
         }
-
-        System.out.printf("Valor Total dos Imóveis: R$ %.2f%n", valorTotalImoveis);
+    
+        System.out.printf("\n\nValor Total dos Imóveis: R$ %.2f%n", valorTotalImoveis);
         System.out.printf("Valor Total dos Financiamentos: R$ %.2f%n", pagTotal);
-        
+            
         }
-
-    }
 }
