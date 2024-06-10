@@ -1,7 +1,10 @@
 package main;
 
 import util.InterfaceUser;
+import modelo.Apartamento;
+import modelo.Casa;
 import modelo.Financiamento;
+import modelo.Terreno;
 
 import java.util.ArrayList;
 
@@ -14,35 +17,19 @@ public class Main {
         int prazoFinanciamento1 = interfaceUser1.pedirPrazoFinanciamentoAnos();
         double taxaJuros1 = interfaceUser1.pedirTaxaJuros();
 
-        System.out.println("Imóvel 2");
-        InterfaceUser interfaceUser2 = new InterfaceUser();
-        double valorImovel2 = interfaceUser2.pedirValorImovel();
-        int prazoFinanciamento2 = interfaceUser2.pedirPrazoFinanciamentoAnos();
-        double taxaJuros2 = interfaceUser2.pedirTaxaJuros();
-
-        System.out.println("Imóvel 3");
-        InterfaceUser interfaceUser3 = new InterfaceUser();
-        double valorImovel3 = interfaceUser3.pedirValorImovel();
-        int prazoFinanciamento3 = interfaceUser3.pedirPrazoFinanciamentoAnos();
-        double taxaJuros3 = interfaceUser3.pedirTaxaJuros();
-
-        System.out.println("Imóvel 4");
-        InterfaceUser interfaceUser4 = new InterfaceUser();
-        double valorImovel4 = interfaceUser4.pedirValorImovel();
-        int prazoFinanciamento4 = interfaceUser4.pedirPrazoFinanciamentoAnos();
-        double taxaJuros4 = interfaceUser4.pedirTaxaJuros();
-
         ArrayList<Financiamento> listaTodosFinanciamentos = new ArrayList<Financiamento>();
 
-        Financiamento financiamento1 = new Financiamento(valorImovel1, prazoFinanciamento1, taxaJuros1);
-        Financiamento financiamento2 = new Financiamento(valorImovel2, prazoFinanciamento2, taxaJuros2);
-        Financiamento financiamento3 = new Financiamento(valorImovel3, prazoFinanciamento3, taxaJuros3);
-        Financiamento financiamento4 = new Financiamento(valorImovel4, prazoFinanciamento4, taxaJuros4);
+        Financiamento financiamento1 = new Casa(valorImovel1, prazoFinanciamento1, taxaJuros1);
+        Financiamento financiamento2 = new Casa(valorImovel1, prazoFinanciamento1, taxaJuros1);
+        Financiamento financiamento3 = new Apartamento(valorImovel1, prazoFinanciamento1, taxaJuros1);
+        Financiamento financiamento4 = new Apartamento(valorImovel1, prazoFinanciamento1, taxaJuros1);
+        Financiamento financiamento5 = new Terreno(valorImovel1, prazoFinanciamento1, taxaJuros1);
 
         listaTodosFinanciamentos.add(financiamento1);
         listaTodosFinanciamentos.add(financiamento2);
         listaTodosFinanciamentos.add(financiamento3);
         listaTodosFinanciamentos.add(financiamento4);
+        listaTodosFinanciamentos.add(financiamento5);
 
         CalcularTodosImoveis(listaTodosFinanciamentos);
     }
