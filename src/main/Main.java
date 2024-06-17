@@ -19,11 +19,11 @@ public class Main {
 
         ArrayList<Financiamento> listaTodosFinanciamentos = new ArrayList<Financiamento>();
 
-        Financiamento financiamento1 = new Casa(valorImovel1, prazoFinanciamento1, taxaJuros1);
-        Financiamento financiamento2 = new Casa(valorImovel1, prazoFinanciamento1, taxaJuros1);
-        Financiamento financiamento3 = new Apartamento(valorImovel1, prazoFinanciamento1, taxaJuros1);
-        Financiamento financiamento4 = new Apartamento(valorImovel1, prazoFinanciamento1, taxaJuros1);
-        Financiamento financiamento5 = new Terreno(valorImovel1, prazoFinanciamento1, taxaJuros1);
+        Financiamento financiamento1 = new Casa(valorImovel1, prazoFinanciamento1, taxaJuros1, 300, 500);
+        Financiamento financiamento2 = new Casa(valorImovel1, prazoFinanciamento1, taxaJuros1, 300, 500);
+        Financiamento financiamento3 = new Apartamento(valorImovel1, prazoFinanciamento1, taxaJuros1, 1, 7);
+        Financiamento financiamento4 = new Apartamento(valorImovel1, prazoFinanciamento1, taxaJuros1, 2, 5);
+        Financiamento financiamento5 = new Terreno(valorImovel1, prazoFinanciamento1, taxaJuros1, "Residencial");
 
         listaTodosFinanciamentos.add(financiamento1);
         listaTodosFinanciamentos.add(financiamento2);
