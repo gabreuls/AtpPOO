@@ -15,4 +15,16 @@ public class Terreno extends Financiamento{
         
         return pagMen;
     }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("Valor do Imovel: " + this.valorImovel + "\n");
+        sb.append("Valor do Financiamento: " + this.CalcularPagamentoTotal() + "\n");
+        sb.append("Taxa de Juros: " + this.taxaJurosAnual + "\n");
+        sb.append("Prazo em anos: " + this.prazoFinanciamento + "\n");
+        sb.append("Tipo da zona do terreno: " + this.tipoZona + "\n\n");
+        
+        return sb.toString();
+    }
 }

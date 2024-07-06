@@ -1,0 +1,34 @@
+Valor do Imovel: 75000,00
+Valor do Financiamento: 76755,00
+Taxa de Juros: 30.0
+Prazo em anos: 5
+Area Construida: 300.0
+Area total do Terreno: 500.0
+
+Valor do Imovel: 50000,00
+Valor do Financiamento: 50713,33
+Taxa de Juros: 20.0
+Prazo em anos: 5
+Area Construida: 500.0
+Area total do Terreno: 900.0
+
+Valor do Imovel: 75000,00
+Valor do Financiamento: 4612500,00
+Taxa de Juros: 30.0
+Prazo em anos: 5
+N Andar: 7
+Qtd vagas garagem: 1
+
+Valor do Imovel: 75000,00
+Valor do Financiamento: 4612500,00
+Taxa de Juros: 30.0
+Prazo em anos: 5
+N Andar: 5
+Qtd vagas garagem: 2
+
+Valor do Imovel: 75000.0
+Valor do Financiamento: 78412.5
+Taxa de Juros: 30.0
+Prazo em anos: 5
+Tipo da zona do terreno: Residencial
+
