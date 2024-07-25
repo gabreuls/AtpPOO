@@ -7,25 +7,25 @@ Essa matéria e sistema desenvolvido durante ela tem como objetivo demonstrar e 
 
 1. O sistema usará conceitos de Programação Orientada a Objetos como, por exemplo:
 
-    Classes
-    Objetos
-    Métodos
-    Atributos
-    Polimorfismo
-    Heranças
-    Classes abstratas
+    Classes,
+    Objetos,
+    Métodos,
+    Atributos,
+    Polimorfismo,
+    Heranças,
+    Classes abstratas.
 
 2. O sistema simulará financiamentos de:
 
-    Casas
-    Terrenos
-    Apartamentos
+    Casas,
+    Terrenos,
+    Apartamentos.
 
 3. O sistema utilizará variáveis para o cálculo do financiamento como:
 
-    Duração do financiamento (em meses)
-    Valor do imóvel
-    Taxa de juros anual
+    Duração do financiamento (em meses);
+    Valor do imóvel;
+    Taxa de juros anual.
 
 4. O sistema utilizará tratamento de exceções.
 
