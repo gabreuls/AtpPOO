@@ -1,4 +1,4 @@
-# Aplicação desenvolvida durante a metéria de Fundamentos da Programação Orientada à Objetos
+# Aplicação desenvolvida durante a matéria de Fundamentos da Programação Orientada à Objetos
 Essa matéria e sistema desenvolvido durante ela tem como objetivo demonstrar e ajudar a abstrair os conceitos da programação Orientada à Objetos e a linguagem de programação Java.
 
 
